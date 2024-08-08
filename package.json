@@ -1,0 +1,30 @@
+{
+  "name": "mapbackend3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/ai-form-recognizer": "^5.0.0",
+    "@turf/turf": "^7.0.0",
+    "axios": "^1.7.2",
+    "compromise": "^14.14.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jimp": "^0.22.12",
+    "mongoose": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.4",
+    "openai": "^4.55.1",
+    "sharp": "^0.33.4",
+    "tesseract.js": "^5.1.0",
+    "xregexp": "^5.1.1"
+  }
+}
